@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+    body {
+        background-image: url("srodek.jpg");
+    }
+}
+
+@media (max-width: 668px) {
+    body {
+        background-image: url("telefon.jpg");
+    }
+    h1{
+        font-size: 1.3rem;
+    }
+    input[type="reset"], #mors, #craft{
+        height: 45%;
+        width: 16,25vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 901px) {
+    body {
+        background-image: url("komputer.jpg");
+    }
+}
