@@ -105,11 +105,6 @@ pole.addEventListener("dblclick", (event) => {
         console.error("Błąd kopiowania: ", err);
     });
 
-})
-
-
-if (window.matchMedia("(max-width: 400px)").matches){
-    tekst.setAttribute("maxlength", "70");
-}
+});
 
 
