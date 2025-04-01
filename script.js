@@ -81,8 +81,8 @@ guzik_minecraft.addEventListener("click", (event) => {
     tekst.removeEventListener("input", tlumacz_morse);
     tekst.addEventListener("input", tlumacz_craft);
     h1.innerHTML = "Konwerter tekstu na alfabet z gry Minecraft";
-    h1.style.fontSize = "1rem";
-    h4.style.fontSize = " 0.4rem";
+    h1.style.fontSize = "1.1rem";
+    h4.style.fontSize = " 0.55rem";
     document.body.classList.add("czcionka_mc");
     pole.style.letterSpacing = "2px";
     reset.click();
