@@ -169,9 +169,6 @@ button{
 
 
 @media (max-width: 668px){
-    h1{
-        font-size: 1.3rem;
-    }
     #mors, #craft{
         height: 7vw;
         max-height: 40px;
@@ -189,7 +186,4 @@ button{
         width: clamp(25px, 16vw, 80px);
         font-size: clamp(8px, 3.75vw, 18px);
     }
-}
-@media (min-width: 901px) {
-    
 }
